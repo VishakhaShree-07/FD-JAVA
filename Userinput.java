@@ -8,7 +8,14 @@ public class Userinput {
         System.out.println("Enter a second no");
         int b = sc.nextInt();
         int sum = a + b;
-        System.out.println("Sum:" + sum);
+        System.out.println("Sum of numbers:" + sum);
+        float c = sc.nextFloat();
+        System.out.println("Enter a float number");
+        float d = sc.nextFloat();
+        System.out.println("Enter a float number");
+        float add = c + d;
+        System.out.println("Add:" + add);
+
 
     }
     
